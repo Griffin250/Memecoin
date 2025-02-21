@@ -18,20 +18,22 @@ const Footer = () => {
                 <a href="#contact-us">Contact Us</a>
             </nav>
             <div className="footer-text">
-                <p> Boopcoin Memes are intended to function as an expression of support for, and engagement with, the ideals and beliefs embodied by the symbol "$TRUMP" and the associated artwork, 
-                    and are not intended to be, or to be the subject of, an investment opportunity, investment contract, or security of any type. GetTrumpMemes.com is not political and has nothing to 
-                    do with any political campaign or any political office or governmental agency. See Terms & Conditions Here, See Card Allocation Here </p>
+                <p>Boopcoin Memes are a fun expression of support for the ideals behind "$BOOP" and its artwork. 
+                    They are not an investment, security, or financial opportunity.
+                     Boopcoin has no political affiliations. See Terms & Conditions Here, See Card Allocation Here.</p>
             </div>
             <div className="footer-disclaimer">
-                <p> “BOOP” is a registered trademarks of DTTM Operations LLC. This product is not distributed or sold by Donald J. Trump, The Trump Organization or any of their respective affiliates or principals. Celebration Cards LLC 
-                    uses the “BOOP” name and the name, image and likeness of Donald J. Trump pursuant to the terms of a limited license agreement
-                     which may be terminated or revoked according to its terms. </p>
+                <p><p>“BOOP” is a community-driven memecoin with no affiliation to any individual, organization, or entity. 
+                    This product is not distributed or sold by any official company or representatives. 
+                    BOOP Memecoin exists purely for entertainment and engagement within the meme culture. 
+                    It holds no investment value and should not be considered a financial asset.</p></p>
             </div>
             <div className="footer-warning">
-                <strong>Fight Fight Fight LLC will never call, text, email or otherwise contact you to request your personal information. Please be careful.</strong>
+            <strong>BOOP Memecoin will never call, text, email, or otherwise contact you to request your personal information.
+                 Please stay vigilant and protect your privacy.</strong>
             </div>
             <div className="footer-bottom">
-                <span>© 2025 Fight Fight Fight LLC. All rights reserved.</span>
+            <span>© 2025 Boopcoin Memecoin. All rights reserved.</span>
                 <a href="#privacy-policy">Privacy Policy</a>
                 <a href="#terms-conditions">Terms & Conditions</a>
             </div>

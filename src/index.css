@@ -237,8 +237,8 @@ margin: auto;
   color: white;
   text-align: center;
   margin: 20px auto;
-  border-top: 5px solid red;
-  border-bottom: 5px solid red;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
   width: 100%;
 }
 
@@ -259,7 +259,7 @@ margin: auto;
 }
 
 .payment-methods img {
-  width: 60px;
+  width: 50px;
   height: auto;
   background: white;
   padding: 10px;
@@ -307,7 +307,7 @@ margin: auto;
 /*........................Community section........................*/
 .Boop-community-section {
   width: 100%;
-margin: 25px auto;
+  margin: 12px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -327,8 +327,8 @@ margin: 25px auto;
 .mission-box {
   background-color: #0b0b28;
   color: white;
-  padding: 20px;
-  margin: 15px 36px ;
+  padding-bottom: 20px;
+  margin: 4px 36px ;
   border-radius: 10px;
   max-width: 600px;
 }
@@ -425,19 +425,20 @@ margin: 25px auto;
 .footer-text p {
   color: #f5b942;
   text-decoration: none;
+  font-size: 12px;
 }
 .footer-disclaimer{
   width: 85%;
   margin: auto; 
 }
 .footer-disclaimer p{
-  font-size: 18px;
+  font-size: 12px;
   margin: 10px;
 }
 .footer-warning {
   font-weight: bold;
   margin: 20px 0;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .footer-bottom {

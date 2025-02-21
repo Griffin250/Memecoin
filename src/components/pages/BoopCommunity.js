@@ -9,9 +9,10 @@ const BoopCommunity = () => {
         <div className="mission-box">
           <p className="mission-title">Mission</p>
           <p className="mission-text">
-            This is YOUR chance to join a community that’s all about fighting for what matters. 
-            The BOOP Meme encourages a culture of success & optimism to make the world a better 
-            place. Go BOOP! <span className="emoji">✊</span>
+          This is YOUR chance to join a community that’s all about spreading joy and positivity! 
+          The BOOP Meme embraces a culture of fun, success, and optimism to make the world a better place. <br/>
+          Join the movement and BOOP your way to the top! 🚀🐾
+             <span className="emoji">✊</span>
           </p>
         </div>
       </div>
