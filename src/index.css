@@ -17,8 +17,15 @@ img.moonshot {
 }
 
 /*........................Navbar section........................*/
-/* Navbar.css */
-.navbar {
+.wrapper{
+  display: flex;
+  margin: 0;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+.navbar{
   display: flex;
   width: 50%;
   margin: 25px auto 0;
@@ -115,7 +122,19 @@ img.moonshot {
 .navbar-btn:hover {
   background-color: #B71C1C;
 }
-
+.connect-wallet{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  background: blueviolet;
+  color: whitesmoke;
+  padding: 12px 8px ;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.connect-wallet:hover{
+  background: #6b047d;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
