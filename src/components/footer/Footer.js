@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-logo">Boopcoin </div>
             <div className='footer-socials'> 
-            <div className="telegram icon"> <a href='https://t.me/CallAnalyser/118637' target='blank'><FontAwesomeIcon icon={faTelegram} /> </a> </div>
+            <div className="telegram icon"> <a href='https://t.me/+2YbqrJ6Ea7hiMmQ0' target='blank'><FontAwesomeIcon icon={faTelegram} /> </a> </div>
             <div className="x-twitter icon"> <a href='https://x.com/home' target='blank'>< FontAwesomeIcon icon={faXTwitter} /></a> </div>
             </div>
             <nav className="footer-nav">
