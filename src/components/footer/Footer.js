@@ -1,7 +1,6 @@
 import React from 'react';
-import '../footer/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faTelegram} from '@fortawesome/free-brands-svg-icons';
+import { faTelegram, faXTwitter} from '@fortawesome/free-brands-svg-icons';
 
 
 const Footer = () => {
@@ -9,8 +8,8 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-logo">Boopcoin </div>
             <div className='footer-socials'> 
-            <div className="twitter icon"> <FontAwesomeIcon icon={faTwitter} /> </div>
             <div className="telegram icon"> <FontAwesomeIcon icon={faTelegram} /> </div>
+            <div className="x-twitter icon"> <FontAwesomeIcon icon={faXTwitter} /> </div>
             </div>
             <nav className="footer-nav">
                 <a href="#home">Home</a>
