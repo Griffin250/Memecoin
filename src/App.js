@@ -6,14 +6,16 @@ import Home from './components/pages/Home.js';
 
 function App() {
   return (
+    <>  <Navbar />
     <div className="App">
       <header className="App-header">
-      <Navbar />
+     
       </header>
       <Home />
 
       <Footer/>
     </div>
+    </>
   );
 }
 

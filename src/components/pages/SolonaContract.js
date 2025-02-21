@@ -20,11 +20,12 @@ const SolanaContract = () => {
         </button>
       </div>
       <p className="disclaimer">
-        Trump Memes are intended to function as an expression of support for, and engagement with, 
-        the ideals and beliefs embodied by the symbol "$TRUMP" and the associated artwork, and are 
-        not intended to be, or to be the subject of, an investment opportunity, investment contract, 
-        or security of any type. GetTrumpMemes.com is not political and has nothing to do with any 
-        political campaign or any political office or governmental agency. See Terms & Conditions 
+        BOOPCOIN is intended to function as an expression of support for, and engagement with, the fun, 
+        lighthearted spirit of internet culture embodied by the symbol "$BOOP" and the associated artwork. 
+        It is not intended to be, or to be the subject of, an investment opportunity, investment contract, 
+        or security of any type. BoopcoinOfficial.com is a community-driven project and has no affiliation with
+         any financial institution, regulatory body, or governmental agency. <br/>
+        See Terms & Conditions
         <a href="#NoLink" className="highlight-text"> Here</a>, See Card Allocation 
         <a href="#NoLink" className="highlight-text"> Here</a>
       </p>
