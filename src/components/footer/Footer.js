@@ -1,15 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTelegram, faXTwitter} from '@fortawesome/free-brands-svg-icons';
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-logo">Boopcoin </div>
             <div className='footer-socials'> 
-            <div className="telegram icon"> <FontAwesomeIcon icon={faTelegram} /> </div>
-            <div className="x-twitter icon"> <FontAwesomeIcon icon={faXTwitter} /> </div>
+            <div className="telegram icon"> <a href='https://t.me/CallAnalyser/118637' target='blank'><FontAwesomeIcon icon={faTelegram} /> </a> </div>
+            <div className="x-twitter icon"> <a href='https://x.com/home' target='blank'>< FontAwesomeIcon icon={faXTwitter} /></a> </div>
             </div>
             <nav className="footer-nav">
                 <a href="#home">Home</a>
@@ -34,8 +34,9 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
             <span>© 2025 Boopcoin Memecoin. All rights reserved.</span>
-                <a href="#privacy-policy">Privacy Policy</a>
-                <a href="#terms-conditions">Terms & Conditions</a>
+
+                <Link to="/not-found"> Privacy Policy</Link>
+                <Link to="/not-found"> Terms & Conditions</Link>
             </div>
         </footer>
     );

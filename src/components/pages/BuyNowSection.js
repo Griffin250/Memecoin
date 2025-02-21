@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import applePay from "../../images/Apple-pay.png"; 
 import visaMastercard from "../../images/Master-card.png";
 import venmo from "../../images/Venmo.png";
@@ -17,7 +17,8 @@ const BuyNowSection = () => {
         <img src={usdc} alt="USDC" />
         <img src={solana} alt="Solana" />
       </div>
-      <button className="buy-now-button">BUY NOW</button>
+      <NavLink to="/server-error"><button className="buy-now-button">BUY NOW</button></NavLink>
+      
       <p className="buy-easily">Buy Easily with <span className="moonshot">moonshot</span></p>
       <p className="disclaimer">
         BOOP Memes are intended to function as an expression of support for, and engagement with, the 
