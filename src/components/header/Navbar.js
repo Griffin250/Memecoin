@@ -58,11 +58,20 @@ const Navbar = () => {
           
           
         </nav>
+      
         <NavLink className="connect-wallet" onClick={() => setShowWalletPopup(true)}>
             Connect Wallet
          </NavLink>
+         
       </div>
-
+      <div className="footer header-footer">
+        <nav className="footer-nav">
+             <a className="homee" href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#how-to-buy">How to Buy</a>
+                
+            </nav>
+        </div>
       {/* Wallet Pop-up */}
       {showWalletPopup && (
         <WalletPopup

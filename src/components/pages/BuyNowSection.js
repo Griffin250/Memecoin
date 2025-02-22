@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import applePay from "../../images/Apple-pay.png"; 
 import visaMastercard from "../../images/Master-card.png";
-import venmo from "../../images/Venmo.png";
+
 import usdc from "../../images/usdc.png";
 import solana from "../../images/Solona.png";
 
@@ -13,7 +13,7 @@ const BuyNowSection = () => {
       <div className="payment-methods">
         <img src={applePay} alt="Apple Pay" />
         <img src={visaMastercard} alt="Visa and Mastercard" />
-        <img src={venmo} alt="Venmo" />
+       
         <img src={usdc} alt="USDC" />
         <img src={solana} alt="Solana" />
       </div>
