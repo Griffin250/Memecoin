@@ -2,7 +2,17 @@ import React from "react";
 
 
 const SolanaContract = () => {
+
+
+
+
+
   const contractAddress = "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN";
+
+
+
+
+  
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
