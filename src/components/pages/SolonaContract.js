@@ -5,13 +5,14 @@ const SolanaContract = () => {
 
 
 
+/*....................SOLONA CONTRACT ADDRESS ....................*/
 
 
-  const contractAddress = "Dropping at 18:00 UTC";
+  const contractAddress = "  8dJin5PZa9GQmJiXnDioWebciDE4rq3xwFyjkaX8Z4w";
 
 
 
-
+/*...............................................................*/
 
 
   const copyToClipboard = () => {
