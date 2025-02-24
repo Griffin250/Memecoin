@@ -7,12 +7,12 @@ const SolanaContract = () => {
 
 
 
-  const contractAddress = "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN";
+  const contractAddress = "Dropping at 18:00 UTC";
 
 
 
 
-  
+
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
