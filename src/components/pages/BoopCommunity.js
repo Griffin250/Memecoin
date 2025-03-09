@@ -3,7 +3,7 @@ import BoopImage from "../../images/boopcoin_official.png";
 
 const BoopCommunity = () => {
   return (
-    <div className="Boop-community-section">
+    <div className="Boop-community-section" data-aos="fade-up" data-aos-duration="750">
       <div className="text-content">
         <h1 className="headline">Join the BOOP Meme Community!</h1>
         <div className="mission-box">

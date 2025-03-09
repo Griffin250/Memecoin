@@ -8,7 +8,7 @@ import solana from "../../images/Solona.png";
 
 const BuyNowSection = () => {
   return (
-    <div className="buy-now-section">
+    <div className="buy-now-section" data-aos="fade-up" data-aos-duration="750">
       <h1 className="buy-now-title">Buy Now with a <br /> <span>Debit Card or Crypto!</span></h1>
       <div className="payment-methods">
         <img src={applePay} alt="Apple Pay" />

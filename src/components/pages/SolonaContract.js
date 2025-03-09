@@ -21,7 +21,7 @@ const SolanaContract = () => {
   };
 
   return (
-    <div className="contract-section">
+    <div className="contract-section" id="contract-address" data-aos="fade-up" data-aos-duration="750">
       <h1 className="title">Solana Contract Address</h1>
       <div className="contract-box">
         <span className="contract-icon">CA:</span>

@@ -10,10 +10,12 @@ import Moonshot from "./components/pages/Moonshot.js";
 import ServerError from "./components/pages/ServerError.js";
 import NotFound from "./components/pages/NotFound.js";
 
+
 function App() {
+
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />

@@ -14,7 +14,7 @@ const ServerError = () => {
   }, []);
 
   return (
-    <div className="server-crash">
+    <div className="server-crash" data-aos="fade-up" data-aos-duration="750">
       <h1 className="glitch" data-text="500 ERROR">
         500 ERROR
       </h1>

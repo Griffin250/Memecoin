@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import WalletPopup from "../pages/WalletPopup"; // Import the wallet popup
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Navbar = () => {
+    useEffect(() => {
+      AOS.init({
+        duration: 30000, // Animation duration in milliseconds
+        offset:400,// Offset (in px) from the top before animation starts
+        once: false,     // Whether animation should happen only once
+      });
+    }, []);
   const [showWalletPopup, setShowWalletPopup] = useState(false);
 
   const connectPhantomWallet = async () => {
@@ -21,10 +30,10 @@ const Navbar = () => {
   return (
     <>
       <div className="wrapper">
-        <nav className="navbar">
+        <nav className="navbar" data-aos="zoom-in-up">
           <div className="navbar-logo">
             <NavLink to="/" className={"navbar-logo"}>
-              <span>BOOP</span>
+              <span>Greed 3</span>
             </NavLink>
           </div>
           <div className="navbar-links">
@@ -59,7 +68,7 @@ const Navbar = () => {
           
         </nav>
       
-        <NavLink className="connect-wallet" onClick={() => setShowWalletPopup(true)}>
+        <NavLink className="connect-wallet" onClick={() => setShowWalletPopup(true)} data-aos="slide-right">
             Connect Wallet
          </NavLink>
          
